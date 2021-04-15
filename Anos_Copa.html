@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<h1>Anos que tiveram Copa</h1>
+
+<script>
+	function pulaLinha() {
+
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+	// saber ate que ano teve copa
+	var limite = parseInt(prompt("Digite o ano limite"));
+	//ano que a copa começou
+	var anocopa = 1930;
+
+
+	while ( anocopa <= limite){
+
+		mostra("Teve copa em " + anocopa);
+
+
+		anocopa = anocopa + 4;
+
+	}
+
+</script>
